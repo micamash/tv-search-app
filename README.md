@@ -1,6 +1,7 @@
 TV-Search-App
 
-In progress -A search app used to find TV shows and TV show details.
+In progress
+A search app used to find TV shows and TV show details.
 
 ## Table of contents
 
