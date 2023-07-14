@@ -1,4 +1,5 @@
 <template>
+  <button>Back to Search</button>
   <div class="Details">
     <h1>Show Details</h1>
   </div>
@@ -22,17 +23,20 @@
         <li>
           Runtime:
           {{
-            result.show.runtime ? result.show.runtime + " min" : "Unavailable"
+            result.show.runtime !== undefined
+              ? result.show.runtime + " min"
+              : "Unavailable"
           }}
         </li>
         <li>
           Average Runtime:
           {{
-            result.show.runtime
+            result.show.avgruntime !== undefined
               ? result.show.avgruntime + " min"
               : "Unavailable"
           }}
         </li>
+
         <li>
           Network:
           {{ result.show.network ? result.show.network.name : "Unavailable" }}
