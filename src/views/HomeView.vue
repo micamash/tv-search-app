@@ -22,11 +22,21 @@
 <style>
 .image-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  display: flex;
   flex-wrap: wrap;
 }
 
 .image-wrapper {
-  margin: 10px;
+  margin: 30px;
+}
+
+img {
+  border-radius: 10px;
+  border: solid 2px #d6d7d8;
 }
 </style>
 
