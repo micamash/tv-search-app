@@ -1,7 +1,6 @@
 TV-Search-App
 
-In progress
-A search app used to find TV shows and TV show details.
+A search app used to search for TV shows and TV show details.
 
 ## Table of contents
 
@@ -25,13 +24,21 @@ A search app used to find TV shows and TV show details.
 - Solution URL: [GitHub Project Page]()
 - Live Site URL: [TV Search App]()
 
-## My process
-
 ### Built with
+-HTML
+-CSS
+-JavaScript
+-Vue
+-[TV Maze API](https://www.tvmaze.com/api)
 
 ### What I learned
+This was my first project using Vue and an API. I learned a lot during this project. It has helped me solidify my understanding of how Vue works.
 
 ### Continued development
+
+I plan on adding a 'Schedule' nav that will show current air time schedules.
+
+I look forward to creating more applications using APIs. I would also like to build a larger project using Vue to continue my development with that framework.
 
 ## Author
 
