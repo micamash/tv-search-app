@@ -6,18 +6,18 @@ import DetailsView from '../views/DetailsView.vue'
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: HomeView
   },
   {
     path: '/schedule',
-    name: 'schedule',
+    name: 'Sechdule',
     component: ScheduleView,
     component: () => import('../views/ScheduleView.vue')
   },
   {
-    path: '/details',
-    name: 'details',
+    path: '/details/:showId',
+    name: 'DetailsView',
     component: DetailsView,
     component: () => import('../views/DetailsView.vue')
   }

@@ -13,7 +13,13 @@
         class="image-wrapper"
       >
         <img :src="result.show.image.medium" alt="TV Show Poster" />
-        <h2>{{ result.show.name }}</h2>
+        <h2>
+          <router-link
+            :to="{ name: 'DetailsView', params: { showId: result.show.id } }"
+          >
+            {{ result.show.name }}
+          </router-link>
+        </h2>
       </div>
     </div>
   </div>
@@ -42,8 +48,11 @@ img {
   border: solid 2px #d6d7d8;
 }
 
-h2 {
+a {
   width: 214px;
+  color: #d6d7d8;
+  text-decoration: none;
+  cursor: pointer;
 }
 </style>
 
