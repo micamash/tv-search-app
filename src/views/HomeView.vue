@@ -28,15 +28,22 @@
 .image-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .image-wrapper {
   margin: 30px;
+  width: 225px;
+  height: 400px;
 }
 
 img {
   border-radius: 10px;
   border: solid 2px #d6d7d8;
+}
+
+h2 {
+  width: 214px;
 }
 </style>
 
