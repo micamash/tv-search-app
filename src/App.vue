@@ -3,16 +3,25 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
+html {
+  background-image: radial-gradient(
+    rgb(63, 63, 63),
+    rgb(35, 35, 35),
+    rgb(0, 0, 0)
+  );
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #d6d7d8;
+  height: 100vh;
 }
 
 nav {
@@ -21,10 +30,10 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #d6d7d8;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #b94254;
 }
 </style>
