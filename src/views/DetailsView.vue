@@ -1,5 +1,4 @@
 <template>
-  <button>Back to Search</button>
   <div class="Details">
     <h1>Show Details</h1>
   </div>
