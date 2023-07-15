@@ -17,11 +17,11 @@ A search app used to search for TV shows and TV show details.
 
 ### Screenshot
 
-[<img src="" height="300"/>]()
+[<img src="public/TV-search-screenshot.png" height="300"/>]()
 
 ### Links
 
-- Solution URL: [GitHub Project Page]()
+- Solution URL: [GitHub Project Page](https://github.com/micamash/tv-search-app)
 - Live Site URL: [TV Search App]()
 
 ### Built with
